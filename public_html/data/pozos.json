@@ -1,0 +1,100 @@
+[{
+	"nombre"	: "Guaricho 10",
+	"sector": "Guaricho",
+	"activo": "5 Presidente",
+	"datos"	: [
+      		{"label": "Agua", "value": 25, "click":"index.html" },
+      		{"label": "Aceite", "value": 40 },
+      		{"label": "'Petroleo'", "value": 25 }
+      		]
+},{
+	"nombre"	: "Guaricho 10",
+	"sector": "Guaricho",
+	"activo": "5 Presidente",
+	"datos"	: [
+      		{"label": "Agua", "value": 25 },
+      		{"label": "Aceite", "value": 40 },
+      		{"label": "'Petroleo'", "value": 25 }
+      		]
+},{
+	"nombre"	: "Guaricho 10",
+	"sector": "Guaricho",
+	"activo": "5 Presidente",
+	"datos"	: [
+      		{"label": "Agua", "value": 25 },
+      		{"label": "Aceite", "value": 40 },
+      		{"label": "'Petroleo'", "value": 25 }
+      		]
+},{
+	"nombre"	: "Guaricho 10",
+	"sector": "Guaricho",
+	"activo": "5 Presidente",
+	"datos"	: [
+      		{"label": "Agua", "value": 25 },
+      		{"label": "Aceite", "value": 40 },
+      		{"label": "'Petroleo'", "value": 25 }
+      		]
+},{
+	"nombre"	: "Guaricho 10",
+	"sector": "Guaricho",
+	"activo": "5 Presidente",
+	"datos"	: [
+      		{"label": "Agua", "value": 25 },
+      		{"label": "Aceite", "value": 40 },
+      		{"label": "'Petroleo'", "value": 25 }
+      		]
+},{
+	"nombre"	: "Guaricho 10",
+	"sector": "Guaricho",
+	"activo": "5 Presidente",
+	"datos"	: [
+      		{"label": "Agua", "value": 25 },
+      		{"label": "Aceite", "value": 40 },
+      		{"label": "'Petroleo'", "value": 25 }
+      		]
+},{
+	"nombre"	: "Guaricho 10",
+	"sector": "Guaricho",
+	"activo": "5 Presidente",
+	"datos"	: [
+      		{"label": "Agua", "value": 25 },
+      		{"label": "Aceite", "value": 40 },
+      		{"label": "'Petroleo'", "value": 25 }
+      		]
+},{
+	"nombre"	: "Guaricho 10",
+	"sector": "Guaricho",
+	"activo": "5 Presidente",
+	"datos"	: [
+      		{"label": "Agua", "value": 25 },
+      		{"label": "Aceite", "value": 40 },
+      		{"label": "'Petroleo'", "value": 25 }
+      		]
+},{
+	"nombre"	: "Guaricho 10",
+	"sector": "Guaricho",
+	"activo": "5 Presidente",
+	"datos"	: [
+      		{"label": "Agua", "value": 25 },
+      		{"label": "Aceite", "value": 40 },
+      		{"label": "'Petroleo'", "value": 25 }
+      		]
+},{
+	"nombre"	: "Guaricho 10",
+	"sector": "Guaricho",
+	"activo": "5 Presidente",
+	"datos"	: [
+      		{"label": "Agua", "value": 25 },
+      		{"label": "Aceite", "value": 40 },
+      		{"label": "'Petroleo'", "value": 25 }
+      		]
+},{
+	"nombre"	: "Guaricho 10",
+	"sector": "Guaricho",
+	"activo": "5 Presidente",
+	"datos"	: [
+      		{"label": "Agua", "value": 25 },
+      		{"label": "Aceite", "value": 40 },
+      		{"label": "'Petroleo'", "value": 25 }
+      		]
+}]
