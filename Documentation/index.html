@@ -1,0 +1,864 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>MoodStrap Template - Highly usable responsive bootstrap template</title>
+	
+	<meta name="description" content="MoodStrap is built on Twitter bootstrap theme framework and jQuery javascript framework using the nicest parts of HTML5 and CSS3. ">
+	<meta name="author" content="Hakan Kozaklı">
+	<meta name="copyright" content="Hakan Kozaklı">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2013-12-05T00:00:00+01:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#EEEEEE;color:#383838;}
+		::-moz-selection{background:#333636;color:#00DFFC;}
+		::selection{background:#333636;color:#00DFFC;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#008C9E;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #008C9E, #006673);
+			  background-image: -ms-linear-gradient(top, #008C9E, #006673);
+			  background-image: -webkit-gradient(linear, 0 0, 0 008C9E%, from(#343838), to(#006673));
+			  background-image: -webkit-linear-gradient(top, #008C9E, #006673);
+			  background-image: -o-linear-gradient(top, #008C9E, #006673);
+			  background-image: linear-gradient(top, #008C9E, #006673);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008C9E', endColorstr='#006673', GradientType=0);
+			  border-color: #006673 #006673 #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #008C9E #008C9E #bfbfbf;
+		  background-color: #006673;
+		}
+		hr{border-top:1px solid #D4D4D4;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#343838;color:#FFFFFF;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #494F4F;-moz-text-shadow:1px 1px 0px #494F4F;text-shadow:1px 1px 0px #494F4F;}
+		#documenter_sidebar ul{border-top:1px solid #212424;}
+		#documenter_sidebar ul a{border-top:1px solid #494F4F;border-bottom:1px solid #212424;color:#FFFFFF;}
+		#documenter_sidebar ul a:hover{background:#333636;color:#00DFFC;border-top:1px solid #333636;}
+		#documenter_sidebar ul a.current{background:#333636;color:#00DFFC;border-top:1px solid #333636;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-moodstrap-template">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#overview" title="Overview">Overview</a></li>
+			<li><a href="#features" title="Features">Features</a></li>
+			<li><a href="#html_structure" title="HTML Structure">HTML Structure</a>
+				<ul>
+					<li><a href="#html_structure_header_structure">Header Structure</a>
+					<li><a href="#html_structure_spansidebar_structure_span">Sidebar Structure</a>
+					<li><a href="#html_structure_page_heading">Page Heading</a>
+					<li><a href="#html_structure_content_structure">Content Structure</a>
+					<li><a href="#html_structure_spanfooter_structure_span">Footer Structure</a>
+				</ul>
+			</li>
+			<li><a href="#css_structure" title="CSS Structure">CSS Structure</a></li>
+			<li><a href="#font" title="Font">Font</a></li>
+			<li><a href="#widgets" title="Widgets">Widgets</a>
+				<ul>
+					<li><a href="#widgets_standard_widget_usage">Standard Widget Usage</a>
+					<li><a href="#widgets_color_options">Color options</a>
+					<li><a href="#widgets_widget_styles">Widget Styles</a>
+				</ul>
+			</li>
+			<li><a href="#new_page" title="New Page">New Page</a></li>
+			<li><a href="#references_credits" title="References & Credits">References & Credits</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Hakan Kozaklı 2013<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>MoodStrap Template</h1>
+	<h2>Highly usable responsive bootstrap template</h2>
+	<div id="documenter_buttons">
+		<a href="#" class="btn btn-primary btn-large">Buy this template</a> 
+	</div>
+	<hr>
+	<ul>
+	<li>created: 12/01/2013</li>
+	<li>latest update: 12/05/2013</li>
+	<li>by: Hakan Kozaklı</li>
+	<li><a href=""></a></li>
+	<li>email: <a href="mailto:&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#104;&#97;&#107;&#97;&#110;&#107;&#111;&#122;&#97;&#107;&#108;&#105;&#46;&#99;&#111;&#109;">&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#104;&#97;&#107;&#97;&#110;&#107;&#111;&#122;&#97;&#107;&#108;&#105;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p>Thank you for purchasing this lovely template!</p>
+	</section>
+	
+	<section id="overview">
+	<div class="page-header"><h3>Overview</h3><hr class="notop"></div>
+<p>
+	MoodStrap is built on Twitter bootstrap theme framework and jQuery javascript framework using the nicest parts of HTML5 and CSS3.</p>
+<p>
+	The template is fully responsive and built with latest Twitter Bootstrap 3.0.2 framework. It contains many useful jQuery plugins that can be used according to your needs on your application. The template is lightweight and can run flawlessly even on slow machines despite the visual effects. MoodStrap is designed to work on many devices not limited to Desktop resolutions and major browsers but also on Laptops, mobile devices like phones, tablets and many other smart devices.</p>
+</section>
+<section id="features">
+	<div class="page-header"><h3>Features</h3><hr class="notop"></div>
+<ul>
+	<li>
+		Built with Bootstrap 3.0.2</li>
+	<li>
+		Html5 &amp; CSS3 powered</li>
+	<li>
+		Fully Responsive</li>
+	<li>
+		Huge Components</li>
+	<li>
+		Multilevel menu</li>
+	<li>
+		Movable widgets</li>
+	<li>
+		jQuery v1.10.2</li>
+	<li>
+		jQuery UI 1.9.2</li>
+	<li>
+		jQuery Bootbox</li>
+	<li>
+		jQuery Sparklines</li>
+	<li>
+		Morris Chart</li>
+	<li>
+		jQuery Flot Charts</li>
+	<li>
+		jQuery Noty</li>
+	<li>
+		jQuery Gritter</li>
+	<li>
+		Flot Charts</li>
+	<li>
+		jQuery Easy Pie Chart</li>
+	<li>
+		jQuery Validation engine</li>
+	<li>
+		Date, date range &amp; color Picker(Bootstrap Date, range &amp; color Picker)</li>
+	<li>
+		Integrated Full Calendar(jQuery Full Calendar)</li>
+	<li>
+		Form Component</li>
+	<li>
+		Multi Select</li>
+	<li>
+		Timepicker</li>
+	<li>
+		WYSIWYG Editors</li>
+	<li>
+		Form Validation</li>
+	<li>
+		Inline Editor</li>
+	<li>
+		Google maps</li>
+	<li>
+		jQuery ScrollTo</li>
+	<li>
+		jQuery Knob</li>
+	<li>
+		Slider (jQuery Slider)</li>
+	<li>
+		Bootstrap Switch</li>
+	<li>
+		Dynamic Table</li>
+	<li>
+		Responsive Table</li>
+	<li>
+		Advanced Table</li>
+	<li>
+		Font Icons(Font Awesome 4.0.3) &amp; Glyphicons</li>
+	<li>
+		Custom Radiobutton, Checkbox</li>
+	<li>
+		Google font - OpenSans</li>
+	<li>
+		Well structured code</li>
+	<li>
+		Detailed Documentation</li>
+</ul>
+</section>
+<section id="html_structure">
+	<div class="page-header"><h3>HTML Structure</h3><hr class="notop"></div>
+<h4 id="html_structure_header_structure">Header Structure</h4>
+<pre class="prettyprint lang-html linenums">
+<span>&lt;<span class="start-tag">header</span>&gt;</span><span>
+</span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">navbar navbar-fixed-top bs-docs-nav</a>&quot; <span class="attribute-name">role</span>=&quot;<a class="attribute-value">banner</a>&quot;&gt;</span><span>
+  
+    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">container</a>&quot;&gt;</span><span>
+      </span><span class="comment">&lt;!-- Menu button for smallar screens --&gt;</span><span>
+      </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">navbar-header</a>&quot;&gt;</span><span>
+		  </span><span>&lt;<span class="start-tag">button</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">navbar-toggle btn-navbar</a>&quot; <span class="attribute-name">type</span>=&quot;<a class="attribute-value">button</a>&quot; <span class="attribute-name">data-toggle</span>=&quot;<a class="attribute-value">collapse</a>&quot; <span class="attribute-name">data-target</span>=&quot;<a class="attribute-value">.bs-navbar-collapse</a>&quot;&gt;</span><span>&lt;<span class="start-tag">span</span>&gt;</span><span>Menu</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">button</span>&gt;</span><span>
+      </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot; <span class="attribute-name">class</span>=&quot;<a class="attribute-value">pull-left menubutton hidden-xs</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-bars</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+		  </span><span class="comment">&lt;!-- Site name for smallar screens --&gt;</span><span>
+		  </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">index.html</a>&quot; <span class="attribute-name">class</span>=&quot;<a class="attribute-value">navbar-brand</a>&quot;&gt;</span><span>Mood</span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">bold</a>&quot;&gt;</span><span>Strap</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+		</span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+
+      </span><span class="comment">&lt;!-- Navigation starts --&gt;</span><span>
+      </span><span>&lt;<span class="start-tag">nav</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">collapse navbar-collapse bs-navbar-collapse</a>&quot; <span class="attribute-name">role</span>=&quot;<a class="attribute-value">navigation</a>&quot;&gt;</span><span>         
+        
+        </span><span class="comment">&lt;!-- Links --&gt;</span><span>
+        </span><span>&lt;<span class="start-tag">ul</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">nav navbar-nav pull-right</a>&quot;&gt;</span><span>
+          </span><span>&lt;<span class="start-tag">li</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">dropdown pull-right user-data</a>&quot;&gt;</span><span>            
+            </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">data-toggle</span>=&quot;<a class="attribute-value">dropdown</a>&quot; <span class="attribute-name">class</span>=&quot;<a class="attribute-value">dropdown-toggle</a>&quot; <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">img</span> <span class="attribute-name">src</span>=&quot;<a class="attribute-value">img/user1.png</a>&quot;&gt;</span><span> John </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">bold</a>&quot;&gt;</span><span>Doe</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">b</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">caret</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">b</span>&gt;</span><span>              
+            </span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+            
+            </span><span class="comment">&lt;!-- Dropdown menu --&gt;</span><span>
+            </span><span>&lt;<span class="start-tag">ul</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">dropdown-menu</a>&quot;&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-user</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> Profile</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-cogs</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> Settings</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">login.html</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-key</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> Logout</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+            </span><span>&lt;/<span class="end-tag">ul</span>&gt;</span><span>
+          </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+          </span><span class="comment">&lt;!-- Upload to server link. Class &quot;dropdown-big&quot; creates big dropdown --&gt;</span><span>
+          </span><span>&lt;<span class="start-tag">li</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">dropdown dropdown-big leftonmobile</a>&quot;&gt;</span><span>
+            </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot; <span class="attribute-name">class</span>=&quot;<a class="attribute-value">dropdown-toggle</a>&quot; <span class="attribute-name">data-toggle</span>=&quot;<a class="attribute-value">dropdown</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-cloud-upload</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+            </span><span class="comment">&lt;!-- Dropdown --&gt;</span><span>
+            </span><span>&lt;<span class="start-tag">ul</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">dropdown-menu</a>&quot;&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+                </span><span class="comment">&lt;!-- Progress bar --&gt;</span><span>
+                </span><span>&lt;<span class="start-tag">p</span>&gt;</span><span>Photo Upload in Progress</span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+                </span><span class="comment">&lt;!-- Bootstrap progress bar --&gt;</span><span>
+                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">progress progress-striped active</a>&quot;&gt;</span><span>
+					</span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">progress-bar progress-bar-info</a>&quot;  <span class="attribute-name">role</span>=&quot;<a class="attribute-value">progressbar</a>&quot; <span class="attribute-name">aria-valuenow</span>=&quot;<a class="attribute-value">40</a>&quot; <span class="attribute-name">aria-valuemin</span>=&quot;<a class="attribute-value">0</a>&quot; <span class="attribute-name">aria-valuemax</span>=&quot;<a class="attribute-value">100</a>&quot; <span class="attribute-name">style</span>=&quot;<a class="attribute-value">width: 40%</a>&quot;&gt;</span><span>
+						</span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">sr-only</a>&quot;&gt;</span><span>40% Complete</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>
+					</span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+			    </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+
+                </span><span>&lt;<span class="start-tag">hr</span> <span>/</span>&gt;</span><span>
+
+                </span><span class="comment">&lt;!-- Progress bar --&gt;</span><span>
+                </span><span>&lt;<span class="start-tag">p</span>&gt;</span><span>Video Upload in Progress</span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+                </span><span class="comment">&lt;!-- Bootstrap progress bar --&gt;</span><span>
+                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">progress progress-striped active</a>&quot;&gt;</span><span>
+					</span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">progress-bar progress-bar-success</a>&quot;  <span class="attribute-name">role</span>=&quot;<a class="attribute-value">progressbar</a>&quot; <span class="attribute-name">aria-valuenow</span>=&quot;<a class="attribute-value">80</a>&quot; <span class="attribute-name">aria-valuemin</span>=&quot;<a class="attribute-value">0</a>&quot; <span class="attribute-name">aria-valuemax</span>=&quot;<a class="attribute-value">100</a>&quot; <span class="attribute-name">style</span>=&quot;<a class="attribute-value">width: 80%</a>&quot;&gt;</span><span>
+						</span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">sr-only</a>&quot;&gt;</span><span>80% Complete</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>
+					</span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+			    </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span> 
+
+                </span><span>&lt;<span class="start-tag">hr</span> <span>/</span>&gt;</span><span>             
+
+                </span><span class="comment">&lt;!-- Dropdown menu footer --&gt;</span><span>
+                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">drop-foot</a>&quot;&gt;</span><span>
+                  </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>View All</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+                </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+
+              </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+            </span><span>&lt;/<span class="end-tag">ul</span>&gt;</span><span>
+          </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+
+          </span><span class="comment">&lt;!-- Sync to server link --&gt;</span><span>
+          </span><span>&lt;<span class="start-tag">li</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">dropdown dropdown-big leftonmobile</a>&quot;&gt;</span><span>
+            </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot; <span class="attribute-name">class</span>=&quot;<a class="attribute-value">dropdown-toggle</a>&quot; <span class="attribute-name">data-toggle</span>=&quot;<a class="attribute-value">dropdown</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-refresh</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+            </span><span class="comment">&lt;!-- Dropdown --&gt;</span><span>
+            </span><span>&lt;<span class="start-tag">ul</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">dropdown-menu</a>&quot;&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+                </span><span class="comment">&lt;!-- Using &quot;fa fa-spin&quot; class to rotate icon. --&gt;</span><span>
+                </span><span>&lt;<span class="start-tag">p</span>&gt;</span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">label label-info</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-cloud</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span> Syncing Photos to Server</span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+                </span><span>&lt;<span class="start-tag">hr</span> <span>/</span>&gt;</span><span>
+                </span><span>&lt;<span class="start-tag">p</span>&gt;</span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">label label-warning</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-cloud</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span> Syncing Bookmarks Lists to Cloud</span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+
+                </span><span>&lt;<span class="start-tag">hr</span> <span>/</span>&gt;</span><span>
+
+                </span><span class="comment">&lt;!-- Dropdown menu footer --&gt;</span><span>
+                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">drop-foot</a>&quot;&gt;</span><span>
+                  </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>View All</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+                </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+
+              </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+            </span><span>&lt;/<span class="end-tag">ul</span>&gt;</span><span>
+          </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+          </span><span>&lt;<span class="start-tag">li</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">dropdown dropdown-big leftonmobile</a>&quot;&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">dropdown-toggle</a>&quot; <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot; <span class="attribute-name">data-toggle</span>=&quot;<a class="attribute-value">dropdown</a>&quot;&gt;</span><span>
+                </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-comments</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">label label-info</a>&quot;&gt;</span><span>6</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span> 
+              </span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+
+                </span><span>&lt;<span class="start-tag">ul</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">dropdown-menu</a>&quot;&gt;</span><span>
+                  </span><span>&lt;<span class="start-tag">li</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">dropdown-header padless</a>&quot;&gt;</span><span>
+                    </span><span class="comment">&lt;!-- Heading - h5 --&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">h5</span>&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-comments</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> Chats</span><span>&lt;/<span class="end-tag">h5</span>&gt;</span><span>
+                    </span><span class="comment">&lt;!-- Use hr tag to add border --&gt;</span><span>                   
+                  </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+                  </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">hr</span> <span>/</span>&gt;</span><span>
+                    </span><span class="comment">&lt;!-- List item heading h6 --&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">h6</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>Hi :)</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">label label-warning pull-right</a>&quot;&gt;</span><span>10:42</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">h6</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">clearfix</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">hr</span> <span>/</span>&gt;</span><span>
+                  </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+                  </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">h6</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>How are you?</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">label label-warning pull-right</a>&quot;&gt;</span><span>20:42</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">h6</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">clearfix</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">hr</span> <span>/</span>&gt;</span><span>
+                  </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+                  </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">h6</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>What are you doing?</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">label label-warning pull-right</a>&quot;&gt;</span><span>14:42</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">h6</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">clearfix</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">hr</span> <span>/</span>&gt;</span><span>
+                  </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>                  
+                  </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">drop-foot</a>&quot;&gt;</span><span>
+                      </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>View All</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+                    </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+                  </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>                                    
+                </span><span>&lt;/<span class="end-tag">ul</span>&gt;</span><span>
+            </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+            
+            </span><span class="comment">&lt;!-- Message button with number of latest messages count--&gt;</span><span>
+            </span><span>&lt;<span class="start-tag">li</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">dropdown dropdown-big messages-dd leftonmobile</a>&quot;&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">dropdown-toggle</a>&quot; <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot; <span class="attribute-name">data-toggle</span>=&quot;<a class="attribute-value">dropdown</a>&quot;&gt;</span><span>
+                </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-envelope-o</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">label label-primary</a>&quot;&gt;</span><span>3</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span> 
+              </span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+
+                </span><span>&lt;<span class="start-tag">ul</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">dropdown-menu</a>&quot;&gt;</span><span>
+                  </span><span>&lt;<span class="start-tag">li</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">dropdown-header padless</a>&quot;&gt;</span><span>
+                    </span><span class="comment">&lt;!-- Heading - h5 --&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">h5</span>&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-envelope-alt</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> Messages</span><span>&lt;/<span class="end-tag">h5</span>&gt;</span><span>
+                    </span><span class="comment">&lt;!-- Use hr tag to add border --&gt;</span><span>
+                    
+                  </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+                  </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">hr</span> <span>/</span>&gt;</span><span class="comment">&lt;!-- List item heading h6 --&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">h6</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>Hello how are you?</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">h6</span>&gt;</span><span>
+                    </span><span class="comment">&lt;!-- List item para --&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">p</span>&gt;</span><span>Quisque eu consectetur erat eget  semper...</span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">hr</span> <span>/</span>&gt;</span><span>
+                  </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+                  </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">h6</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>Today is wonderful?</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">h6</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">p</span>&gt;</span><span>Quisque eu consectetur erat eget  semper...</span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">hr</span> <span>/</span>&gt;</span><span>
+                  </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+                  </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">drop-foot</a>&quot;&gt;</span><span>
+                      </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>View All</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+                    </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+                  </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>                                    
+                </span><span>&lt;/<span class="end-tag">ul</span>&gt;</span><span>
+            </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+
+            </span><span class="comment">&lt;!-- Members button with number of latest members count --&gt;</span><span>
+            </span><span>&lt;<span class="start-tag">li</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">dropdown dropdown-big</a>&quot;&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">dropdown-toggle</a>&quot; <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot; <span class="attribute-name">data-toggle</span>=&quot;<a class="attribute-value">dropdown</a>&quot;&gt;</span><span>
+                </span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-user</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">label label-success</a>&quot;&gt;</span><span>7</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span> 
+              </span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+
+                </span><span>&lt;<span class="start-tag">ul</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">dropdown-menu</a>&quot;&gt;</span><span>
+                  </span><span>&lt;<span class="start-tag">li</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">dropdown-header padless</a>&quot;&gt;</span><span>
+                    </span><span class="comment">&lt;!-- Heading - h5 --&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">h5</span>&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-user</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> Users</span><span>&lt;/<span class="end-tag">h5</span>&gt;</span><span>
+                    </span><span class="comment">&lt;!-- Use hr tag to add border --&gt;</span><span>                    
+                  </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+                  </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">hr</span> <span>/</span>&gt;</span><span>
+                    </span><span class="comment">&lt;!-- List item heading h6--&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">h6</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>John Doe</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">label label-warning pull-right</a>&quot;&gt;</span><span>Free</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">h6</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">clearfix</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">hr</span> <span>/</span>&gt;</span><span>
+                  </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+                  </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">h6</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>Iron Man</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">label label-important pull-right</a>&quot;&gt;</span><span>Premium</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">h6</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">clearfix</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">hr</span> <span>/</span>&gt;</span><span>
+                  </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+                  </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">h6</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>Salamander</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">label label-warning pull-right</a>&quot;&gt;</span><span>Free</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">h6</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">clearfix</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">hr</span> <span>/</span>&gt;</span><span>
+                  </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>                  
+                  </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">drop-foot</a>&quot;&gt;</span><span>
+                      </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>View All</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+                    </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+                  </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>                                    
+                </span><span>&lt;/<span class="end-tag">ul</span>&gt;</span><span>
+            </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span> 
+        </span><span>&lt;/<span class="end-tag">ul</span>&gt;</span><span>
+      </span><span>&lt;/<span class="end-tag">nav</span>&gt;</span><span>
+
+    </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+  </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+</span><span>&lt;/<span class="end-tag">header</span>&gt;</span></pre>
+<p>
+	&nbsp;</p>
+<h4 id="html_structure_spansidebar_structure_span"><span>Sidebar Structure</span></h4>
+<pre class="prettyprint lang-html linenums">
+<span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">sidebar</a>&quot;&gt;</span><span>
+        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">sidebar-dropdown</a>&quot;&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>Navigation</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+        </span><span class="comment">&lt;!-- Search form --&gt;</span><span>
+        </span><span>&lt;<span class="start-tag">form</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">navbar-form</a>&quot; <span class="attribute-name">role</span>=&quot;<a class="attribute-value">search</a>&quot;&gt;</span><span>
+    			</span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">form-group</a>&quot;&gt;</span><span>
+    				</span><span>&lt;<span class="start-tag">input</span> <span class="attribute-name">type</span>=&quot;<a class="attribute-value">text</a>&quot; <span class="attribute-name">class</span>=&quot;<a class="attribute-value">form-control</a>&quot; <span class="attribute-name">placeholder</span>=&quot;<a class="attribute-value">Search</a>&quot;&gt;</span><span>
+            </span><span>&lt;<span class="start-tag">button</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">btn search-button</a>&quot; <span class="attribute-name">type</span>=&quot;<a class="attribute-value">submit</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-search</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>&lt;/<span class="end-tag">button</span>&gt;</span><span>
+    			</span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+    		</span><span>&lt;/<span class="end-tag">form</span>&gt;</span><span>
+        </span><span class="comment">&lt;!--- Sidebar navigation --&gt;</span><span>
+        </span><span class="comment">&lt;!-- If the main navigation has sub navigation, then add the class &quot;has_sub&quot; to &quot;li&quot; of main navigation. --&gt;</span><span>
+        </span><span>&lt;<span class="start-tag">ul</span> <span class="attribute-name">id</span>=&quot;<a class="attribute-value">nav</a>&quot;&gt;</span><span>
+          </span><span class="comment">&lt;!-- Main menu with font awesome icon --&gt;</span><span>
+          </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">index.html</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-home</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span>&gt;</span><span>Dashboard</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+          </span><span>&lt;<span class="start-tag">li</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">has_sub</a>&quot;&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-list-alt</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span>&gt;</span><span>Widgets</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">pull-right</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-chevron-left</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+            </span><span>&lt;<span class="start-tag">ul</span>&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">widgets1.html</a>&quot;&gt;</span><span>Widgets #1</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">widgets2.html</a>&quot;&gt;</span><span>Widgets #2</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">widgets3.html</a>&quot;&gt;</span><span>Widgets #3</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+            </span><span>&lt;/<span class="end-tag">ul</span>&gt;</span><span>
+          </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>                             
+          </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">charts.html</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-bar-chart-o</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span>&gt;</span><span>Charts</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span> 
+          </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">tables.html</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-table</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span>&gt;</span><span>Tables</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+          </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">forms.html</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-tasks</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span>&gt;</span><span>Forms</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+          </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">ui.html</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-magic</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span>&gt;</span><span>User Interface</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+          </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">typography.html</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-edit</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span>&gt;</span><span>Typography</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+          </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">calendar.html</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-calendar</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span>&gt;</span><span>Calendar</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+          </span><span>&lt;<span class="start-tag">li</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">has_sub</a>&quot;&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot; <span class="attribute-name">class</span>=&quot;<a class="attribute-value">open</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-sitemap</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span>&gt;</span><span>Extra Pages #1</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">pull-right</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-chevron-left</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+            </span><span>&lt;<span class="start-tag">ul</span>&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">post.html</a>&quot;&gt;</span><span>Post</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">login.html</a>&quot;&gt;</span><span>Login</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">register.html</a>&quot;&gt;</span><span>Register</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">support.html</a>&quot;&gt;</span><span>Support</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">invoice.html</a>&quot;&gt;</span><span>Invoice</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">profile.html</a>&quot;&gt;</span><span>Profile</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">gallery.html</a>&quot; <span class="attribute-name">class</span>=&quot;<a class="attribute-value">active</a>&quot;&gt;</span><span>Gallery</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+            </span><span>&lt;/<span class="end-tag">ul</span>&gt;</span><span>
+          </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span> 
+          </span><span>&lt;<span class="start-tag">li</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">has_sub</a>&quot;&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-file-text</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span>&gt;</span><span>Extra Pages #2</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">pull-right</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-chevron-left</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+            </span><span>&lt;<span class="start-tag">ul</span>&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">media.html</a>&quot;&gt;</span><span>Media</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">statement.html</a>&quot;&gt;</span><span>Statement</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">error.html</a>&quot;&gt;</span><span>Error</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">error-log.html</a>&quot;&gt;</span><span>Error Log</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">calendar.html</a>&quot;&gt;</span><span>Calendar</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">grid.html</a>&quot;&gt;</span><span>Grid</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+            </span><span>&lt;/<span class="end-tag">ul</span>&gt;</span><span>
+          </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+          </span><span>&lt;<span class="start-tag">li</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">has_sub</a>&quot;&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-heart</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span>&gt;</span><span>3 Level Menu</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">pull-right</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-chevron-left</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+            </span><span>&lt;<span class="start-tag">ul</span>&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-bookmark</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> Subitem 1</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">has_sub</a>&quot;&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-glass</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> Subitem 2 </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">pull-right</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-chevron-left</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+                  </span><span>&lt;<span class="start-tag">ul</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-bell</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> Subitem 1</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-camera</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> Subitem 2</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+                  </span><span>&lt;/<span class="end-tag">ul</span>&gt;</span><span>
+              </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+            </span><span>&lt;/<span class="end-tag">ul</span>&gt;</span><span>
+          </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+          </span><span>&lt;<span class="start-tag">li</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">has_sub</a>&quot;&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-folder</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span>&gt;</span><span>4 Level Menu</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span> </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">pull-right</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-chevron-left</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+            </span><span>&lt;<span class="start-tag">ul</span>&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-thumb-tack</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> Subitem 1</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">li</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">has_sub</a>&quot;&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-thumbs-up</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> Subitem 2 </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">pull-right</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-chevron-left</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+                  </span><span>&lt;<span class="start-tag">ul</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-trophy</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> Subitem 1</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">li</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">has_sub</a>&quot;&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-share</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> Subitem 2 </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">pull-right</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-chevron-left</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+                        </span><span>&lt;<span class="start-tag">ul</span>&gt;</span><span>
+                          </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-microphone</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> Subitem 1</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+                          </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-phone</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> Subitem 2</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+                        </span><span>&lt;/<span class="end-tag">ul</span>&gt;</span><span>
+                    </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+                  </span><span>&lt;/<span class="end-tag">ul</span>&gt;</span><span>
+              </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+            </span><span>&lt;/<span class="end-tag">ul</span>&gt;</span><span>
+          </span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+        </span><span>&lt;/<span class="end-tag">ul</span>&gt;</span><span>
+    </span><span>&lt;/<span class="end-tag">div</span>&gt;</span></pre>
+<p>
+	&nbsp;</p>
+<h4 id="html_structure_page_heading">Page Heading</h4>
+<pre class="prettyprint lang-html linenums">
+<span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">page-head</a>&quot;&gt;</span><span>
+	      </span><span>&lt;<span class="start-tag">h2</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">pull-left</a>&quot;&gt;</span><span>Calendar</span><span>&lt;/<span class="end-tag">h2</span>&gt;</span><span>
+        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">clearfix</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+        </span><span class="comment">&lt;!-- Breadcrumb --&gt;</span><span>
+        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">bread-crumb</a>&quot;&gt;</span><span>
+          </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">index.html</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-home</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span> Home</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span> 
+          </span><span class="comment">&lt;!-- Divider --&gt;</span><span>
+          </span><span>&lt;<span class="start-tag">span</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">divider</a>&quot;&gt;</span><span>/</span><span>&lt;/<span class="end-tag">span</span>&gt;</span><span> 
+          </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot; <span class="attribute-name">class</span>=&quot;<a class="attribute-value">bread-current</a>&quot;&gt;</span><span>Calendar</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+        </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+        
+        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">clearfix</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+
+	    </span><span>&lt;/<span class="end-tag">div</span>&gt;</span></pre>
+<p>
+	&nbsp;</p>
+<h4 id="html_structure_content_structure">Content Structure</h4>
+<pre class="prettyprint lang-html linenums">
+<span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">matter</a>&quot;&gt;</span><span>
+        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">container</a>&quot;&gt;</span><span>
+          </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">row</a>&quot;&gt;</span><span>
+            </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">col-md-12</a>&quot;&gt;</span><span>
+              </span><span class="comment">&lt;!-- Widget --&gt;</span><span>
+              </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">widget</a>&quot;&gt;</span><span>
+                </span><span class="comment">&lt;!-- Widget title --&gt;</span><span>
+                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">widget-head</a>&quot;&gt;</span><span>
+                  </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">pull-left</a>&quot;&gt;</span><span>Calendar</span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+                  </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">widget-icons pull-right</a>&quot;&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot; <span class="attribute-name">class</span>=&quot;<a class="attribute-value">wminimize</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-chevron-up</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+                    </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot; <span class="attribute-name">class</span>=&quot;<a class="attribute-value">wclose</a>&quot;&gt;</span><span>&lt;<span class="start-tag">i</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">fa fa-times</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">i</span>&gt;</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span>
+                  </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>  
+                  </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">clearfix</a>&quot;&gt;</span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+                </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+                </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">widget-content</a>&quot;&gt;</span><span>
+                  </span><span class="comment">&lt;!-- Widget content --&gt;</span><span>
+                </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+              </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span> 
+            </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+          </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+        </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+		  </span><span>&lt;/<span class="end-tag">div</span>&gt;</span></pre>
+<p>
+	&nbsp;</p>
+<h4 id="html_structure_spanfooter_structure_span"><span>Footer Structure</span></h4>
+<pre class="prettyprint lang-html linenums">
+<span>&lt;<span class="start-tag">footer</span>&gt;</span><span>
+  </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">container</a>&quot;&gt;</span><span>
+    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">row</a>&quot;&gt;</span><span>
+      </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">col-md-12</a>&quot;&gt;</span><span>
+            </span><span class="comment">&lt;!-- Copyright info --&gt;</span><span>
+            </span><span>&lt;<span class="start-tag">p</span> <span class="attribute-name">class</span>=&quot;<a class="attribute-value">copy</a>&quot;&gt;</span><span>Copyright <span class="entity"><span>&amp;</span>copy;</span> 2012 | </span><span>&lt;<span class="start-tag">a</span> <span class="attribute-name">href</span>=&quot;<a class="attribute-value">#</a>&quot;&gt;</span><span>Your Site</span><span>&lt;/<span class="end-tag">a</span>&gt;</span><span> </span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span>
+      </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+    </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+  </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+</span><span>&lt;/<span class="end-tag">footer</span>&gt;</span></pre>
+</section>
+<section id="css_structure">
+	<div class="page-header"><h3>CSS Structure</h3><hr class="notop"></div>
+<p>
+	Sample CSS Markup</p>
+<pre class="prettyprint lang-css linenums">
+/* Modal */
+
+.modal-header{
+	padding-top:7px;
+	padding-bottom: 7px;
+}
+
+/* Form */
+.form-inline button{
+	margin-left: 15px;
+}
+
+.form-horizontal .form-actions {
+padding-left: 110px;
+}
+
+.form-actions {
+padding: 5px 20px 5px;
+background:transparent;
+border-top:0px;
+}</pre>
+</section>
+<section id="font">
+	<div class="page-header"><h3>Font</h3><hr class="notop"></div>
+<p>
+	MoodStrap is using Open Sans font generally which is provided by Google. Markup code for this font is below:</p>
+<pre class="prettyprint lang-css linenums">
+@import &quot;<a class="objectLink ">http://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=latin,latin-ext</a>&quot;;</pre>
+</section>
+<section id="widgets">
+	<div class="page-header"><h3>Widgets</h3><hr class="notop"></div>
+<h4 id="widgets_standard_widget_usage">Standard Widget Usage</h4>
+<pre class="prettyprint lang-html linenums">
+<span class="comment">&lt;!-- Widget --&gt;
+&lt;div class=&quot;widget&quot;&gt;
+&nbsp;&nbsp; &nbsp;&lt;!-- Widget title --&gt;
+&nbsp;&nbsp; &nbsp;&lt;div class=&quot;widget-head&quot;&gt;
+&nbsp;&nbsp; &nbsp;&nbsp; &lt;div class=&quot;pull-left&quot;&gt;Calendar&lt;/div&gt;
+&nbsp;&nbsp; &nbsp;&nbsp; &lt;div class=&quot;widget-icons pull-right&quot;&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;a href=&quot;#&quot; class=&quot;wminimize&quot;&gt;&lt;i class=&quot;fa fa-chevron-up&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class=&quot;wsettings&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-wrench&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&lt;a href=&quot;#&quot; class=&quot;wclose&quot;&gt;&lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&nbsp;&nbsp; &nbsp;&nbsp; &lt;/div&gt; &nbsp;
+&nbsp;&nbsp; &nbsp;&nbsp; &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+&nbsp;&nbsp; &nbsp;&lt;/div&gt;
+&nbsp;&nbsp; &nbsp;&lt;div class=&quot;widget-content&quot;&gt;
+&nbsp;&nbsp; &nbsp;&nbsp; &lt;!-- Widget content --&gt;
+&nbsp;&nbsp; &nbsp;&nbsp; &lt;div class=&quot;padd&quot;&gt;
+
+&nbsp;&nbsp; &nbsp;&nbsp; &lt;/div&gt;
+&nbsp;&nbsp; &nbsp;&lt;/div&gt;
+<span class="comment">&lt;div class=&quot;widget-footer&quot;&gt;
+&lt;/div&gt;</span>
+&lt;/div&gt;
+</span></pre>
+<p>
+	&nbsp;</p>
+<h4 id="widgets_color_options">Color options</h4>
+<ul>
+	<li>
+		.widget.wblue</li>
+	<li>
+		.widget.wblue2</li>
+	<li>
+		.widget.worange</li>
+	<li>
+		.widget.worange2</li>
+	<li>
+		.widget.worange3</li>
+	<li>
+		.widget.stone</li>
+	<li>
+		.widget.wlime</li>
+	<li>
+		.widget.wpurple</li>
+	<li>
+		.widget.wpurple2</li>
+	<li>
+		.widget.wpurple3</li>
+	<li>
+		.widget.wpink</li>
+	<li>
+		.widget.wlightblue</li>
+	<li>
+		.widget.wgrayish</li>
+	<li>
+		.widget.wgrey</li>
+	<li>
+		.widget.wyellow</li>
+	<li>
+		.widget.wblack</li>
+</ul>
+<p>
+	&nbsp;</p>
+<h4 id="widgets_widget_styles">Widget Styles</h4>
+<p>
+	<strong>Widget without header: </strong>.headless</p>
+<p>
+	<strong>Widget without footer: </strong>.footless</p>
+</section>
+<section id="new_page">
+	<div class="page-header"><h3>New Page</h3><hr class="notop"></div>
+<p>
+	To create a new page you can simply use <strong>base.html </strong>as an empty layout for your page.</p>
+</section>
+<section id="references_credits">
+	<div class="page-header"><h3>References & Credits</h3><hr class="notop"></div>
+<table class="table table-bordered table-striped" width="100%">
+	<thead>
+		<tr>
+			<th>
+				Name</th>
+			<th>
+				URL</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				jquery-1.10.2</td>
+			<td>
+				<a href="http://www.jquery.com" target="_blank">http://www.jquery.com</a></td>
+		</tr>
+		<tr>
+			<td>
+				Twitter Bootstrap 3.0.2</td>
+			<td>
+				<a href="http://getbootstrap.com/" target="_blank">http://getbootstrap.com/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jquery SlimScroll</td>
+			<td>
+				<a href="http://rocha.la/jQuery-slimScroll">http://rocha.la/jQuery-slimScroll</a></td>
+		</tr>
+		<tr>
+			<td>
+				Datepicker for Bootstrap</td>
+			<td>
+				<a href="http://www.eyecon.ro/bootstrap-datepicker/">http://www.eyecon.ro/bootstrap-datepicker/</a></td>
+		</tr>
+		<tr>
+			<td>
+				Colorpicker for Bootstrap</td>
+			<td>
+				<a href="http://www.eyecon.ro/bootstrap-colorpicker/">http://www.eyecon.ro/bootstrap-colorpicker/</a></td>
+		</tr>
+		<tr>
+			<td>
+				Date Range Picker for Bootstrap</td>
+			<td>
+				<a href="https://github.com/dangrossman/bootstrap-daterangepicker">https://github.com/dangrossman/bootstrap-daterangepicker</a></td>
+		</tr>
+		<tr>
+			<td>
+				CKEditor</td>
+			<td>
+				<a href="http://ckeditor.com/" target="_blank">http://ckeditor.com/</a></td>
+		</tr>
+		<tr>
+			<td>
+				Dropzone</td>
+			<td>
+				<a href="http://www.dropzonejs.com/" target="_blank">http://www.dropzonejs.com/</a></td>
+		</tr>
+		<tr>
+			<td>
+				iCheck</td>
+			<td>
+				<a href="http://damirfoy.com/iCheck/" target="_blank">http://damirfoy.com/iCheck/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery Slider</td>
+			<td>
+				<a href=" 	http://jqueryui.com/slider/" target="_blank">http://jqueryui.com/slider/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery Easy Pie Chart</td>
+			<td>
+				<a href="http://rendro.github.io/easy-pie-chart/" target="_blank">http://rendro.github.io/easy-pie-chart/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery Sparklines</td>
+			<td>
+				<a href="http://omnipotent.net/jquery.sparkline " target="_blank">http://omnipotent.net/jquery.sparkline </a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery Flot Charts</td>
+			<td>
+				<a href="http://www.flotcharts.org/">http://www.flotcharts.org/</a></td>
+		</tr>
+		<tr>
+			<td>
+				Morris</td>
+			<td>
+				<a href="http://www.oesmith.co.uk/morris.js/" target="_blank">http://www.oesmith.co.uk/morris.js/</a></td>
+		</tr>
+		<tr>
+			<td>
+				DataTables</td>
+			<td>
+				<a href=" http://www.datatables.net/blog/Twitter_Bootstrap_2" target="_blank">http://www.datatables.net/blog/Twitter_Bootstrap_2</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery Knob</td>
+			<td>
+				<a href=" http://anthonyterrien.com/knob/" target="_blank">http://anthonyterrien.com/knob/</a></td>
+		</tr>
+		<tr>
+			<td>
+				FullCalendar</td>
+			<td>
+				<a href=" 	http://arshaw.com/fullcalendar/" target="_blank">http://arshaw.com/fullcalendar/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery Rateit</td>
+			<td>
+				<a href="http://rateit.codeplex.com/">http://rateit.codeplex.com/</a></td>
+		</tr>
+		<tr>
+			<td>
+				Gritter Notifications</td>
+			<td>
+				<a href="http://boedesign.com/demos/gritter/" target="_blank">http://boedesign.com/demos/gritter/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery Noty</td>
+			<td>
+				<a href="http://needim.github.io/noty/">http://needim.github.io/noty/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery Validation Plugin</td>
+			<td>
+				<a href="https://github.com/posabsolute/jQuery-Validation-Engine">https://github.com/posabsolute/jQuery-Validation-Engine</a></td>
+		</tr>
+		<tr>
+			<td>
+				Font Awesome 3.2.1</td>
+			<td>
+				<a href="http://fortawesome.github.com/Font-Awesome/" target="_blank">http://fortawesome.github.com/Font-Awesome/</a></td>
+		</tr>
+		<tr>
+			<td>
+				Input Mask</td>
+			<td>
+				<a href="http://digitalbush.com/projects/masked-input-plugin/" target="_blank">http://digitalbush.com/projects/masked-input-plugin/</a></td>
+		</tr>
+		<tr>
+			<td>
+				PrettyPhoto</td>
+			<td>
+				<a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone//">http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery UI Touch Punch</td>
+			<td>
+				<a href="http://touchpunch.furf.com/" target="_blank">http://touchpunch.furf.com/</a></td>
+		</tr>
+		<tr>
+			<td>
+				Flot Charts</td>
+			<td>
+				<a href="http://www.flotcharts.org/" target="_blank">http://www.flotcharts.org/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery Bootstrap Bootbox</td>
+			<td>
+				<a href="http://bootboxjs.com/">http://bootboxjs.com/</a></td>
+		</tr>
+		<tr>
+			<td>
+				Bootstrap Timepicker</td>
+			<td>
+				<a href="http://jdewit.github.com/bootstrap-timepicker/" target="_blank">http://jdewit.github.com/bootstrap-timepicker/</a></td>
+		</tr>
+		<tr>
+			<td>
+				Bootstrap WYSIWYG5</td>
+			<td>
+				<a href="http://jhollingworth.github.com/bootstrap-wysihtml5/" target="_blank">http://jhollingworth.github.com/bootstrap-wysihtml5/</a></td>
+		</tr>
+		<tr>
+			<td>
+				Sortable</td>
+			<td>
+				<a href="http://jqueryui.com/sortable/" target="_blank">http://jqueryui.com/sortable/</a></td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>
+</section>
+
+	</div>
+</body>
+</html>
